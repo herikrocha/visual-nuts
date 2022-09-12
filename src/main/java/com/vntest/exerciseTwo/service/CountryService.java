@@ -1,17 +1,15 @@
 package com.vntest.exerciseTwo.service;
 
 import com.vntest.exerciseTwo.type.Country;
+import lombok.AllArgsConstructor;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+@AllArgsConstructor
 public class CountryService {
 
     private List<Country> countries;
-
-    public CountryService(List<Country> countries) {
-        this.countries = countries;
-    }
 
     public Integer numberOfCountries() {
         return countries.size();

@@ -1,0 +1,7 @@
+[
+  { "country": "US", "languages": [ "en" ] },
+  { "country": "BE", "languages": [ "nl", "fr"  ], "invalidField": "invalidValue" },
+  { "country": "NL", "languages": [ "nl", "fy" ] },
+  { "country": "DE", "languages": [ "de" ] },
+  { "country": "ES", "languages": [ "es" ] }
+]
